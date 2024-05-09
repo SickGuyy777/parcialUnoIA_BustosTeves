@@ -12,8 +12,8 @@ public class CarController : MonoBehaviour
     public float distToNextChecker;
 
     GameObject _currentWay;
-     public int currentCheck = 0;
-     public int currentLap = 0;
+    [HideInInspector] public int currentCheck = 0;
+    [HideInInspector] public int currentLap = 0;
     [HideInInspector] public GameObject currentChecker;
     int _wayIndex, _chekcerIndex = 0;
 
@@ -21,9 +21,10 @@ public class CarController : MonoBehaviour
     {
         _currentWay = _waypoints[_wayIndex];
         currentChecker = _positionCheck[_chekcerIndex];
+        _checkerManager.finishMsg.SetActive(false);
+        _checkerManager.positionsMsg.SetActive(true);
         _movementSpeed = Random.Range(6, 11);
         _arriveWayRadius = Random.Range(1f, 3f);
-        _checkerManager.distances.Add(this);
     }
 
     private void Update()
@@ -40,6 +41,21 @@ public class CarController : MonoBehaviour
 
         transform.position += dist.normalized * _movementSpeed * Time.deltaTime;
         transform.forward = dist;
+
+        if (currentLap > _checkerManager.lapsToFinish)
+        {
+            if (!_checkerManager.finishPositions.Contains(this)) _checkerManager.finishPositions.Add(this);
+
+            if(_checkerManager.finishPositions.Count == _checkerManager.distances.Length)
+            {
+                _checkerManager.finishMsg.SetActive(true);
+                _checkerManager.positionsMsg.SetActive(false);
+            }
+
+            _movementSpeed -= 2f * Time.deltaTime;
+
+            if (_movementSpeed <= 0.3f) _movementSpeed = 0f;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -49,15 +65,8 @@ public class CarController : MonoBehaviour
             _chekcerIndex++;
             if (_chekcerIndex > _positionCheck.Length - 1) _chekcerIndex = 0;
             currentCheck++;
-            if (currentCheck > _positionCheck.Length - 1) currentCheck = 0;
             currentChecker = _positionCheck[_chekcerIndex];
         }
         if (other.tag == "FinishLine") currentLap++;
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.white;
-        Gizmos.DrawWireSphere(_currentWay.transform.position, _arriveWayRadius);
     }
 }
