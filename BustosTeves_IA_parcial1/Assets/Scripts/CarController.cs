@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class CarController : MonoBehaviour
 {
-    [SerializeField] float _movementSpeed;
+    public float movementSpeed;
     [SerializeField] float _arriveWayRadius;
     [SerializeField] GameObject[] _waypoints;
     [SerializeField] GameObject[] _positionCheck;
@@ -17,29 +18,41 @@ public class CarController : MonoBehaviour
     [HideInInspector] public GameObject currentChecker;
     int _wayIndex, _chekcerIndex = 0;
 
+    List<CarController> _allCars = new List<CarController>();
+    List<F1Car> _f1;
+    List<Nascar> _nascar;
+    List<Motorbike> _motorbike;
+
     private void Start()
     {
+        if (!_allCars.Contains(this)) _allCars.Add(this);
+
+        _f1 = _allCars.OfType<F1Car>().ToList();
+        _nascar = _allCars.OfType<Nascar>().ToList();
+        _motorbike = _allCars.OfType<Motorbike>().ToList();
+
         _currentWay = _waypoints[_wayIndex];
         currentChecker = _positionCheck[_chekcerIndex];
         _checkerManager.finishMsg.SetActive(false);
         _checkerManager.positionsMsg.SetActive(true);
-        _movementSpeed = Random.Range(6, 11);
-        _arriveWayRadius = Random.Range(1f, 3f);
+
+        SetStats();
     }
 
     private void Update()
-    {   
+    {
         Vector3 dist = _currentWay.transform.position - transform.position;
-        if(dist.magnitude < _arriveWayRadius)
+
+        if (dist.magnitude < _arriveWayRadius)
         {
             _wayIndex++;
             if (_wayIndex > _waypoints.Length - 1) _wayIndex = 0;
             _currentWay = _waypoints[_wayIndex];
-            _movementSpeed = Random.Range(6, 11);
-            _arriveWayRadius = Random.Range(1f, 3f);
+
+            SetStats();
         }
 
-        transform.position += dist.normalized * _movementSpeed * Time.deltaTime;
+        transform.position += dist.normalized * movementSpeed * Time.deltaTime;
         transform.forward = dist;
 
         if (currentLap > _checkerManager.lapsToFinish)
@@ -52,9 +65,9 @@ public class CarController : MonoBehaviour
                 _checkerManager.positionsMsg.SetActive(false);
             }
 
-            _movementSpeed -= 2f * Time.deltaTime;
+            movementSpeed -= 2f * Time.deltaTime;
 
-            if (_movementSpeed <= 0.3f) _movementSpeed = 0f;
+            if (movementSpeed <= 0.3f) movementSpeed = 0f;
         }
     }
 
@@ -68,5 +81,26 @@ public class CarController : MonoBehaviour
             currentChecker = _positionCheck[_chekcerIndex];
         }
         if (other.tag == "FinishLine") currentLap++;
+    }
+
+    void SetStats()
+    {
+        foreach (var f1 in _f1)
+        {
+            f1.movementSpeed = Random.Range(8, 13);
+            f1._arriveWayRadius = Random.Range(.2f, 1.6f);
+        }
+
+        foreach (var nascar in _nascar)
+        {
+            nascar.movementSpeed = Random.Range(6, 12);
+            nascar._arriveWayRadius = Random.Range(1f, 2.5f);
+        }
+
+        foreach (var bike in _motorbike)
+        {
+            bike.movementSpeed = Random.Range(6, 9);
+            bike._arriveWayRadius = Random.Range(2f, 4f);
+        }
     }
 }
