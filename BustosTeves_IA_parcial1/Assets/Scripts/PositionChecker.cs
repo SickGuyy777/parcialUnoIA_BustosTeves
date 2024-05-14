@@ -32,18 +32,18 @@ public class PositionChecker : MonoBehaviour
                      .ThenBy(x => x.distToNextChecker)
                      .ToList();
 
-        if (finishPositions.Count > 0)
+        if (finishPositions.Any())
         {
             _1rstPos.text = "1st: " + finishPositions.Where(x => x.currentLap > lapsToFinish).First().gameObject.name.ToString();
             if (finishPositions.Count >= distances.Length)
             {
-                var lastFive = finishPositions.Skip(Mathf.Max(0, finishPositions.Count - 5)).ToList();
+                var lastFive = finishPositions.Skip(1).ToList();
 
-                var lastFiveText = string.Join("\n", lastFive.Select((car, index) =>
+                var lastFiveText = lastFive.Aggregate("", (current, car) =>
                 {
-                    int position = index + 2;
-                    return $"{position}{GetPositionSuffix(position)}: {car.gameObject.name}";
-                }));
+                    int position = lastFive.IndexOf(car) + 2;
+                    return $"{current}\n{position}{GetPositionSuffix(position)}: {car.gameObject.name}";
+                });
 
                 _last5.text = lastFiveText;
             }

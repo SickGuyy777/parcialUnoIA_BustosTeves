@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 14378530}
   - component: {fileID: 14378529}
   - component: {fileID: 14378528}
+  - component: {fileID: 14378531}
   m_Layer: 0
   m_Name: Fan (54)
   m_TagString: Untagged
@@ -230,6 +231,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14378526}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &14378531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14378526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &18454223
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,6 +495,7 @@ GameObject:
   - component: {fileID: 23463786}
   - component: {fileID: 23463785}
   - component: {fileID: 23463784}
+  - component: {fileID: 23463787}
   m_Layer: 0
   m_Name: Fan (20)
   m_TagString: Untagged
@@ -576,6 +591,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23463782}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &23463787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23463782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &28729132
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +647,7 @@ GameObject:
   - component: {fileID: 31003462}
   - component: {fileID: 31003461}
   - component: {fileID: 31003460}
+  - component: {fileID: 31003463}
   m_Layer: 0
   m_Name: Fan (50)
   m_TagString: Untagged
@@ -714,6 +743,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31003458}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &31003463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31003458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &38292723
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +768,7 @@ GameObject:
   - component: {fileID: 38292727}
   - component: {fileID: 38292726}
   - component: {fileID: 38292725}
+  - component: {fileID: 38292728}
   m_Layer: 0
   m_Name: Fan (40)
   m_TagString: Untagged
@@ -821,6 +864,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38292723}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &38292728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38292723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &44375944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,6 +1224,7 @@ GameObject:
   - component: {fileID: 107734164}
   - component: {fileID: 107734163}
   - component: {fileID: 107734162}
+  - component: {fileID: 107734165}
   m_Layer: 0
   m_Name: Fan (2)
   m_TagString: Untagged
@@ -1263,6 +1320,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107734160}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &107734165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107734160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &123044166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1428,7 @@ GameObject:
   - component: {fileID: 176712752}
   - component: {fileID: 176712751}
   - component: {fileID: 176712750}
+  - component: {fileID: 176712753}
   m_Layer: 0
   m_Name: Fan (53)
   m_TagString: Untagged
@@ -1453,6 +1524,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176712748}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &176712753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176712748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &211842277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,6 +1793,7 @@ GameObject:
   - component: {fileID: 262794447}
   - component: {fileID: 262794446}
   - component: {fileID: 262794445}
+  - component: {fileID: 262794448}
   m_Layer: 0
   m_Name: Fan (59)
   m_TagString: Untagged
@@ -1804,6 +1889,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262794443}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &262794448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262794443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &267150550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,6 +1945,7 @@ GameObject:
   - component: {fileID: 274362466}
   - component: {fileID: 274362465}
   - component: {fileID: 274362464}
+  - component: {fileID: 274362467}
   m_Layer: 0
   m_Name: Fan (6)
   m_TagString: Untagged
@@ -1942,6 +2041,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274362462}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &274362467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274362462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &280975637
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,6 +2467,7 @@ GameObject:
   - component: {fileID: 312934994}
   - component: {fileID: 312934993}
   - component: {fileID: 312934992}
+  - component: {fileID: 312934995}
   m_Layer: 0
   m_Name: Fan (15)
   m_TagString: Untagged
@@ -2450,6 +2563,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312934990}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &312934995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312934990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &324805577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,6 +2588,7 @@ GameObject:
   - component: {fileID: 324805581}
   - component: {fileID: 324805580}
   - component: {fileID: 324805579}
+  - component: {fileID: 324805582}
   m_Layer: 0
   m_Name: Fan (62)
   m_TagString: Untagged
@@ -2557,6 +2684,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324805577}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &324805582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324805577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &325942991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,6 +2989,7 @@ GameObject:
   - component: {fileID: 351672073}
   - component: {fileID: 351672072}
   - component: {fileID: 351672071}
+  - component: {fileID: 351672074}
   m_Layer: 0
   m_Name: Fan (21)
   m_TagString: Untagged
@@ -2944,6 +3085,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351672069}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &351672074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351672069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &365900748
 GameObject:
   m_ObjectHideFlags: 0
@@ -3039,6 +3193,7 @@ GameObject:
   - component: {fileID: 375458501}
   - component: {fileID: 375458500}
   - component: {fileID: 375458499}
+  - component: {fileID: 375458502}
   m_Layer: 0
   m_Name: Fan (7)
   m_TagString: Untagged
@@ -3134,6 +3289,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375458497}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &375458502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375458497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &410003259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3393,6 +3561,7 @@ GameObject:
   - component: {fileID: 430550522}
   - component: {fileID: 430550521}
   - component: {fileID: 430550520}
+  - component: {fileID: 430550523}
   m_Layer: 0
   m_Name: Fan (43)
   m_TagString: Untagged
@@ -3488,6 +3657,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430550518}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &430550523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430550518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &460523647
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,6 +3870,7 @@ GameObject:
   - component: {fileID: 466610364}
   - component: {fileID: 466610363}
   - component: {fileID: 466610362}
+  - component: {fileID: 466610365}
   m_Layer: 0
   m_Name: Fan (37)
   m_TagString: Untagged
@@ -3783,6 +3966,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466610360}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &466610365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466610360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &477658977
 GameObject:
   m_ObjectHideFlags: 0
@@ -4558,6 +4754,7 @@ GameObject:
   - component: {fileID: 575667481}
   - component: {fileID: 575667480}
   - component: {fileID: 575667479}
+  - component: {fileID: 575667482}
   m_Layer: 0
   m_Name: Fan (57)
   m_TagString: Untagged
@@ -4653,6 +4850,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575667477}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &575667482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575667477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &582022884
 GameObject:
   m_ObjectHideFlags: 0
@@ -4665,6 +4875,7 @@ GameObject:
   - component: {fileID: 582022888}
   - component: {fileID: 582022887}
   - component: {fileID: 582022886}
+  - component: {fileID: 582022889}
   m_Layer: 0
   m_Name: Fan (16)
   m_TagString: Untagged
@@ -4760,6 +4971,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582022884}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &582022889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582022884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &607596057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4772,6 +4996,7 @@ GameObject:
   - component: {fileID: 607596061}
   - component: {fileID: 607596060}
   - component: {fileID: 607596059}
+  - component: {fileID: 607596062}
   m_Layer: 0
   m_Name: Fan (36)
   m_TagString: Untagged
@@ -4867,6 +5092,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607596057}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &607596062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607596057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &619164423
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,6 +5198,7 @@ GameObject:
   - component: {fileID: 621568769}
   - component: {fileID: 621568768}
   - component: {fileID: 621568767}
+  - component: {fileID: 621568770}
   m_Layer: 0
   m_Name: Fan (41)
   m_TagString: Untagged
@@ -5055,6 +5294,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621568765}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &621568770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621568765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &642652192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,6 +5529,7 @@ GameObject:
   - component: {fileID: 660258941}
   - component: {fileID: 660258940}
   - component: {fileID: 660258939}
+  - component: {fileID: 660258942}
   m_Layer: 0
   m_Name: Fan (26)
   m_TagString: Untagged
@@ -5372,6 +5625,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660258937}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &660258942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660258937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &662810076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5384,6 +5650,7 @@ GameObject:
   - component: {fileID: 662810080}
   - component: {fileID: 662810079}
   - component: {fileID: 662810078}
+  - component: {fileID: 662810081}
   m_Layer: 0
   m_Name: Fan (5)
   m_TagString: Untagged
@@ -5479,6 +5746,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662810076}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &662810081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662810076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &680467863
 GameObject:
   m_ObjectHideFlags: 0
@@ -5530,6 +5810,7 @@ GameObject:
   - component: {fileID: 684907823}
   - component: {fileID: 684907822}
   - component: {fileID: 684907821}
+  - component: {fileID: 684907824}
   m_Layer: 0
   m_Name: Fan (25)
   m_TagString: Untagged
@@ -5625,6 +5906,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684907819}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &684907824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684907819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5950,6 +6244,7 @@ GameObject:
   - component: {fileID: 779162853}
   - component: {fileID: 779162852}
   - component: {fileID: 779162851}
+  - component: {fileID: 779162854}
   m_Layer: 0
   m_Name: Fan (31)
   m_TagString: Untagged
@@ -6045,6 +6340,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779162849}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &779162854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779162849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &783328266
 GameObject:
   m_ObjectHideFlags: 0
@@ -6140,6 +6448,7 @@ GameObject:
   - component: {fileID: 824287651}
   - component: {fileID: 824287650}
   - component: {fileID: 824287649}
+  - component: {fileID: 824287652}
   m_Layer: 0
   m_Name: Fan (3)
   m_TagString: Untagged
@@ -6235,6 +6544,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824287647}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &824287652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824287647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &824846020
 GameObject:
   m_ObjectHideFlags: 0
@@ -6330,6 +6652,7 @@ GameObject:
   - component: {fileID: 834007653}
   - component: {fileID: 834007652}
   - component: {fileID: 834007651}
+  - component: {fileID: 834007654}
   m_Layer: 0
   m_Name: Fan (38)
   m_TagString: Untagged
@@ -6425,6 +6748,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834007649}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &834007654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834007649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &842714715
 GameObject:
   m_ObjectHideFlags: 0
@@ -6871,6 +7207,7 @@ GameObject:
   - component: {fileID: 913414972}
   - component: {fileID: 913414971}
   - component: {fileID: 913414970}
+  - component: {fileID: 913414973}
   m_Layer: 0
   m_Name: Fan (35)
   m_TagString: Untagged
@@ -6966,6 +7303,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913414968}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &913414973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913414968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &915292421
 GameObject:
   m_ObjectHideFlags: 0
@@ -6978,6 +7328,7 @@ GameObject:
   - component: {fileID: 915292425}
   - component: {fileID: 915292424}
   - component: {fileID: 915292423}
+  - component: {fileID: 915292426}
   m_Layer: 0
   m_Name: Fan (29)
   m_TagString: Untagged
@@ -7073,6 +7424,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 915292421}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &915292426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915292421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &932743473
 GameObject:
   m_ObjectHideFlags: 0
@@ -7085,6 +7449,7 @@ GameObject:
   - component: {fileID: 932743477}
   - component: {fileID: 932743476}
   - component: {fileID: 932743475}
+  - component: {fileID: 932743478}
   m_Layer: 0
   m_Name: Fan (32)
   m_TagString: Untagged
@@ -7180,6 +7545,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932743473}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &932743478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932743473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &938410429
 GameObject:
   m_ObjectHideFlags: 0
@@ -7192,6 +7570,7 @@ GameObject:
   - component: {fileID: 938410433}
   - component: {fileID: 938410432}
   - component: {fileID: 938410431}
+  - component: {fileID: 938410434}
   m_Layer: 0
   m_Name: Fan (44)
   m_TagString: Untagged
@@ -7287,6 +7666,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938410429}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &938410434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938410429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &939573976
 GameObject:
   m_ObjectHideFlags: 0
@@ -7299,6 +7691,7 @@ GameObject:
   - component: {fileID: 939573980}
   - component: {fileID: 939573979}
   - component: {fileID: 939573978}
+  - component: {fileID: 939573981}
   m_Layer: 0
   m_Name: Fan (45)
   m_TagString: Untagged
@@ -7394,6 +7787,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939573976}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &939573981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939573976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &939862906
 GameObject:
   m_ObjectHideFlags: 0
@@ -7511,6 +7917,7 @@ GameObject:
   - component: {fileID: 947995790}
   - component: {fileID: 947995789}
   - component: {fileID: 947995788}
+  - component: {fileID: 947995791}
   m_Layer: 0
   m_Name: Fan (48)
   m_TagString: Untagged
@@ -7606,6 +8013,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947995786}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &947995791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947995786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -7698,6 +8118,140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &964503679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 964503682}
+  - component: {fileID: 964503681}
+  - component: {fileID: 964503680}
+  m_Layer: 5
+  m_Name: AttendanceTXT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &964503680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964503679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Attendance: 000'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 2
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &964503681
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964503679}
+  m_CullTransparentMesh: 1
+--- !u!224 &964503682
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964503679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2069914519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -397.34, y: -5}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &974124483
 GameObject:
   m_ObjectHideFlags: 0
@@ -7710,6 +8264,7 @@ GameObject:
   - component: {fileID: 974124487}
   - component: {fileID: 974124486}
   - component: {fileID: 974124485}
+  - component: {fileID: 974124488}
   m_Layer: 0
   m_Name: Fan (18)
   m_TagString: Untagged
@@ -7805,6 +8360,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974124483}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &974124488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974124483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &974131625
 GameObject:
   m_ObjectHideFlags: 0
@@ -8170,6 +8738,7 @@ GameObject:
   - component: {fileID: 1011487431}
   - component: {fileID: 1011487430}
   - component: {fileID: 1011487429}
+  - component: {fileID: 1011487432}
   m_Layer: 0
   m_Name: Fan (13)
   m_TagString: Untagged
@@ -8265,6 +8834,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011487427}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1011487432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011487427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1018130230
 GameObject:
   m_ObjectHideFlags: 0
@@ -8360,6 +8942,7 @@ GameObject:
   - component: {fileID: 1023335014}
   - component: {fileID: 1023335013}
   - component: {fileID: 1023335012}
+  - component: {fileID: 1023335015}
   m_Layer: 0
   m_Name: Fan (60)
   m_TagString: Untagged
@@ -8455,6 +9038,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023335010}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1023335015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023335010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1026037583
 GameObject:
   m_ObjectHideFlags: 0
@@ -8781,6 +9377,7 @@ GameObject:
   - component: {fileID: 1085699374}
   - component: {fileID: 1085699373}
   - component: {fileID: 1085699372}
+  - component: {fileID: 1085699375}
   m_Layer: 0
   m_Name: Fan (39)
   m_TagString: Untagged
@@ -8876,6 +9473,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085699370}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1085699375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085699370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1093015205
 GameObject:
   m_ObjectHideFlags: 0
@@ -9323,6 +9933,7 @@ GameObject:
   - component: {fileID: 1120033707}
   - component: {fileID: 1120033706}
   - component: {fileID: 1120033705}
+  - component: {fileID: 1120033708}
   m_Layer: 0
   m_Name: Fan (12)
   m_TagString: Untagged
@@ -9418,6 +10029,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1120033703}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1120033708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120033703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1124073209
 GameObject:
   m_ObjectHideFlags: 0
@@ -9699,6 +10323,7 @@ GameObject:
   - component: {fileID: 1164187664}
   - component: {fileID: 1164187663}
   - component: {fileID: 1164187662}
+  - component: {fileID: 1164187665}
   m_Layer: 0
   m_Name: Fan (8)
   m_TagString: Untagged
@@ -9794,6 +10419,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164187660}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1164187665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164187660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1184922176
 GameObject:
   m_ObjectHideFlags: 0
@@ -10242,6 +10880,7 @@ GameObject:
   - component: {fileID: 1230399147}
   - component: {fileID: 1230399146}
   - component: {fileID: 1230399145}
+  - component: {fileID: 1230399148}
   m_Layer: 0
   m_Name: Fan (63)
   m_TagString: Untagged
@@ -10337,6 +10976,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230399143}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1230399148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230399143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1230868325
 GameObject:
   m_ObjectHideFlags: 0
@@ -10513,6 +11165,7 @@ GameObject:
   - component: {fileID: 1232430699}
   - component: {fileID: 1232430698}
   - component: {fileID: 1232430697}
+  - component: {fileID: 1232430700}
   m_Layer: 0
   m_Name: Fan (46)
   m_TagString: Untagged
@@ -10608,6 +11261,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232430695}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1232430700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232430695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1284579104
 GameObject:
   m_ObjectHideFlags: 0
@@ -10703,6 +11369,7 @@ GameObject:
   - component: {fileID: 1322183197}
   - component: {fileID: 1322183196}
   - component: {fileID: 1322183195}
+  - component: {fileID: 1322183198}
   m_Layer: 0
   m_Name: Fan (30)
   m_TagString: Untagged
@@ -10798,6 +11465,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322183193}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1322183198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322183193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1326278899
 GameObject:
   m_ObjectHideFlags: 0
@@ -10915,6 +11595,7 @@ GameObject:
   - component: {fileID: 1326362041}
   - component: {fileID: 1326362040}
   - component: {fileID: 1326362039}
+  - component: {fileID: 1326362042}
   m_Layer: 0
   m_Name: Fan (49)
   m_TagString: Untagged
@@ -11010,6 +11691,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326362037}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1326362042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326362037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1338068764
 GameObject:
   m_ObjectHideFlags: 0
@@ -11271,6 +11965,7 @@ GameObject:
   - component: {fileID: 1347949772}
   - component: {fileID: 1347949771}
   - component: {fileID: 1347949770}
+  - component: {fileID: 1347949773}
   m_Layer: 0
   m_Name: Fan (11)
   m_TagString: Untagged
@@ -11366,6 +12061,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347949768}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1347949773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347949768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1377772523
 GameObject:
   m_ObjectHideFlags: 0
@@ -11378,6 +12086,7 @@ GameObject:
   - component: {fileID: 1377772527}
   - component: {fileID: 1377772526}
   - component: {fileID: 1377772525}
+  - component: {fileID: 1377772528}
   m_Layer: 0
   m_Name: Fan (4)
   m_TagString: Untagged
@@ -11473,6 +12182,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377772523}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1377772528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377772523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1384982578
 GameObject:
   m_ObjectHideFlags: 0
@@ -11568,6 +12290,7 @@ GameObject:
   - component: {fileID: 1385649403}
   - component: {fileID: 1385649402}
   - component: {fileID: 1385649401}
+  - component: {fileID: 1385649404}
   m_Layer: 0
   m_Name: Fan (47)
   m_TagString: Untagged
@@ -11663,6 +12386,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385649399}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1385649404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385649399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1389974454
 GameObject:
   m_ObjectHideFlags: 0
@@ -11675,6 +12411,7 @@ GameObject:
   - component: {fileID: 1389974458}
   - component: {fileID: 1389974457}
   - component: {fileID: 1389974456}
+  - component: {fileID: 1389974459}
   m_Layer: 0
   m_Name: Fan
   m_TagString: Untagged
@@ -11770,6 +12507,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389974454}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1389974459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389974454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1403013453
 GameObject:
   m_ObjectHideFlags: 0
@@ -11946,6 +12696,7 @@ GameObject:
   - component: {fileID: 1439372097}
   - component: {fileID: 1439372096}
   - component: {fileID: 1439372095}
+  - component: {fileID: 1439372098}
   m_Layer: 0
   m_Name: Fan (22)
   m_TagString: Untagged
@@ -12041,6 +12792,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439372093}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1439372098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439372093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1455261499
 GameObject:
   m_ObjectHideFlags: 0
@@ -12156,6 +12920,7 @@ GameObject:
   - component: {fileID: 1465299169}
   - component: {fileID: 1465299168}
   - component: {fileID: 1465299167}
+  - component: {fileID: 1465299170}
   m_Layer: 0
   m_Name: Fan (56)
   m_TagString: Untagged
@@ -12251,6 +13016,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465299165}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1465299170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465299165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1474899955
 GameObject:
   m_ObjectHideFlags: 0
@@ -12451,6 +13229,7 @@ GameObject:
   - component: {fileID: 1501206393}
   - component: {fileID: 1501206392}
   - component: {fileID: 1501206391}
+  - component: {fileID: 1501206394}
   m_Layer: 0
   m_Name: Fan (51)
   m_TagString: Untagged
@@ -12546,6 +13325,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501206389}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1501206394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501206389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1522122868
 GameObject:
   m_ObjectHideFlags: 0
@@ -12563,7 +13355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1522122869
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12578,6 +13370,7 @@ RectTransform:
   m_Children:
   - {fileID: 842714716}
   - {fileID: 20196368}
+  - {fileID: 1579274497}
   m_Father: {fileID: 1455261503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -12635,6 +13428,7 @@ GameObject:
   - component: {fileID: 1532694227}
   - component: {fileID: 1532694226}
   - component: {fileID: 1532694225}
+  - component: {fileID: 1532694228}
   m_Layer: 0
   m_Name: Fan (42)
   m_TagString: Untagged
@@ -12730,6 +13524,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532694223}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1532694228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532694223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1535778340
 GameObject:
   m_ObjectHideFlags: 0
@@ -13062,6 +13869,140 @@ MonoBehaviour:
   currentCheck: 0
   currentLap: 0
   currentChecker: {fileID: 0}
+--- !u!1 &1579274494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1579274497}
+  - component: {fileID: 1579274496}
+  - component: {fileID: 1579274495}
+  m_Layer: 5
+  m_Name: FansCount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1579274495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579274494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Attendance: 000'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1579274496
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579274494}
+  m_CullTransparentMesh: 1
+--- !u!224 &1579274497
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579274494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1363636, y: 1.1363636, z: 1.1363636}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1522122869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -749.2, y: 471.03}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1596438464
 GameObject:
   m_ObjectHideFlags: 0
@@ -13155,6 +14096,7 @@ GameObject:
   - component: {fileID: 1648400934}
   - component: {fileID: 1648400933}
   - component: {fileID: 1648400932}
+  - component: {fileID: 1648400935}
   m_Layer: 0
   m_Name: Fan (14)
   m_TagString: Untagged
@@ -13250,6 +14192,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648400930}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1648400935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648400930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1659499206
 GameObject:
   m_ObjectHideFlags: 0
@@ -13262,6 +14217,7 @@ GameObject:
   - component: {fileID: 1659499210}
   - component: {fileID: 1659499209}
   - component: {fileID: 1659499208}
+  - component: {fileID: 1659499211}
   m_Layer: 0
   m_Name: Fan (27)
   m_TagString: Untagged
@@ -13357,6 +14313,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659499206}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1659499211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659499206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1677270117
 GameObject:
   m_ObjectHideFlags: 0
@@ -13548,6 +14517,7 @@ GameObject:
   - component: {fileID: 1720522292}
   - component: {fileID: 1720522291}
   - component: {fileID: 1720522290}
+  - component: {fileID: 1720522293}
   m_Layer: 0
   m_Name: Fan (28)
   m_TagString: Untagged
@@ -13643,6 +14613,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720522288}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1720522293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720522288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1748909539
 GameObject:
   m_ObjectHideFlags: 0
@@ -13655,6 +14638,7 @@ GameObject:
   - component: {fileID: 1748909543}
   - component: {fileID: 1748909542}
   - component: {fileID: 1748909541}
+  - component: {fileID: 1748909544}
   m_Layer: 0
   m_Name: Fan (61)
   m_TagString: Untagged
@@ -13750,6 +14734,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748909539}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1748909544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748909539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1755565987
 GameObject:
   m_ObjectHideFlags: 0
@@ -13762,6 +14759,7 @@ GameObject:
   - component: {fileID: 1755565991}
   - component: {fileID: 1755565990}
   - component: {fileID: 1755565989}
+  - component: {fileID: 1755565992}
   m_Layer: 0
   m_Name: Fan (9)
   m_TagString: Untagged
@@ -13857,6 +14855,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755565987}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1755565992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755565987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1758343006
 GameObject:
   m_ObjectHideFlags: 0
@@ -13869,6 +14880,7 @@ GameObject:
   - component: {fileID: 1758343010}
   - component: {fileID: 1758343009}
   - component: {fileID: 1758343008}
+  - component: {fileID: 1758343011}
   m_Layer: 0
   m_Name: Fan (1)
   m_TagString: Untagged
@@ -13964,6 +14976,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758343006}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1758343011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758343006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1773758400
 GameObject:
   m_ObjectHideFlags: 0
@@ -14307,6 +15332,7 @@ GameObject:
   - component: {fileID: 1826309631}
   - component: {fileID: 1826309630}
   - component: {fileID: 1826309629}
+  - component: {fileID: 1826309632}
   m_Layer: 0
   m_Name: Fan (55)
   m_TagString: Untagged
@@ -14402,6 +15428,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826309627}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1826309632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826309627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1842646115
 GameObject:
   m_ObjectHideFlags: 0
@@ -14497,6 +15536,7 @@ GameObject:
   - component: {fileID: 1850703449}
   - component: {fileID: 1850703448}
   - component: {fileID: 1850703447}
+  - component: {fileID: 1850703450}
   m_Layer: 0
   m_Name: Fan (34)
   m_TagString: Untagged
@@ -14592,6 +15632,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850703445}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1850703450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850703445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1873817374
 GameObject:
   m_ObjectHideFlags: 0
@@ -14749,6 +15802,7 @@ GameObject:
   - component: {fileID: 1897838393}
   - component: {fileID: 1897838392}
   - component: {fileID: 1897838391}
+  - component: {fileID: 1897838394}
   m_Layer: 0
   m_Name: Fan (10)
   m_TagString: Untagged
@@ -14844,6 +15898,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897838389}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1897838394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897838389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1901725549
 GameObject:
   m_ObjectHideFlags: 0
@@ -14856,6 +15923,7 @@ GameObject:
   - component: {fileID: 1901725553}
   - component: {fileID: 1901725552}
   - component: {fileID: 1901725551}
+  - component: {fileID: 1901725554}
   m_Layer: 0
   m_Name: Fan (19)
   m_TagString: Untagged
@@ -14951,6 +16019,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901725549}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1901725554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901725549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1904941818
 GameObject:
   m_ObjectHideFlags: 0
@@ -14963,6 +16044,7 @@ GameObject:
   - component: {fileID: 1904941822}
   - component: {fileID: 1904941821}
   - component: {fileID: 1904941820}
+  - component: {fileID: 1904941823}
   m_Layer: 0
   m_Name: Fan (24)
   m_TagString: Untagged
@@ -15058,6 +16140,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904941818}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1904941823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904941818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1932918141
 GameObject:
   m_ObjectHideFlags: 0
@@ -15151,6 +16246,7 @@ GameObject:
   - component: {fileID: 1939198428}
   - component: {fileID: 1939198427}
   - component: {fileID: 1939198426}
+  - component: {fileID: 1939198429}
   m_Layer: 0
   m_Name: Fan (17)
   m_TagString: Untagged
@@ -15246,6 +16342,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939198424}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1939198429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939198424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1965613048
 GameObject:
   m_ObjectHideFlags: 0
@@ -15444,7 +16553,7 @@ GameObject:
   - component: {fileID: 2000606512}
   - component: {fileID: 2000606513}
   m_Layer: 0
-  m_Name: Orange Car
+  m_Name: Cyan Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15769,8 +16878,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2042628178}
+  - component: {fileID: 2042628179}
   m_Layer: 0
-  m_Name: Sits
+  m_Name: FansManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15855,6 +16965,21 @@ Transform:
   - {fileID: 1230399144}
   m_Father: {fileID: 1084693642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2042628179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042628177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9649ebb973fe354a8c3da87d6b2c197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allFans: []
+  _attendanceTxt: {fileID: 964503680}
+  _fansCount: {fileID: 1579274495}
 --- !u!1 &2066227209
 GameObject:
   m_ObjectHideFlags: 0
@@ -15975,6 +17100,7 @@ RectTransform:
   - {fileID: 78160141}
   - {fileID: 1712562281}
   - {fileID: 1195048100}
+  - {fileID: 964503682}
   m_Father: {fileID: 1455261503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -16032,6 +17158,7 @@ GameObject:
   - component: {fileID: 2070075545}
   - component: {fileID: 2070075544}
   - component: {fileID: 2070075543}
+  - component: {fileID: 2070075546}
   m_Layer: 0
   m_Name: Fan (23)
   m_TagString: Untagged
@@ -16127,6 +17254,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070075541}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2070075546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070075541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2073929866
 GameObject:
   m_ObjectHideFlags: 0
@@ -16222,6 +17362,7 @@ GameObject:
   - component: {fileID: 2087368990}
   - component: {fileID: 2087368989}
   - component: {fileID: 2087368988}
+  - component: {fileID: 2087368991}
   m_Layer: 0
   m_Name: Fan (52)
   m_TagString: Untagged
@@ -16317,6 +17458,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087368986}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2087368991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087368986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2095685756
 GameObject:
   m_ObjectHideFlags: 0
@@ -16329,6 +17483,7 @@ GameObject:
   - component: {fileID: 2095685760}
   - component: {fileID: 2095685759}
   - component: {fileID: 2095685758}
+  - component: {fileID: 2095685761}
   m_Layer: 0
   m_Name: Fan (58)
   m_TagString: Untagged
@@ -16424,6 +17579,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095685756}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2095685761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095685756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2097716685
 GameObject:
   m_ObjectHideFlags: 0
@@ -16972,6 +18140,7 @@ GameObject:
   - component: {fileID: 2138502087}
   - component: {fileID: 2138502086}
   - component: {fileID: 2138502085}
+  - component: {fileID: 2138502088}
   m_Layer: 0
   m_Name: Fan (33)
   m_TagString: Untagged
@@ -17067,6 +18236,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138502083}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2138502088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138502083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2954340904470e840816e0d690bdb1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fanColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
