@@ -18,7 +18,7 @@ public class CarController : MonoBehaviour
     [HideInInspector] public GameObject currentChecker;
     int _wayIndex, _chekcerIndex = 0;
 
-    List<CarController> _allCars = new List<CarController>();
+    public List<CarController> _allCars = new List<CarController>();
     List<F1Car> _f1;
     List<Nascar> _nascar;
     List<Motorbike> _motorbike;
@@ -102,5 +102,15 @@ public class CarController : MonoBehaviour
             bike.movementSpeed = Random.Range(6, 9);
             bike._arriveWayRadius = Random.Range(2f, 4f);
         }
+    }
+
+    public void EndRace()
+    {
+        _checkerManager.finishMsg.SetActive(true);
+        _checkerManager.positionsMsg.SetActive(false);
+
+        movementSpeed -= 2f * Time.deltaTime;
+
+        if (movementSpeed <= 0.3f) movementSpeed = 0f;
     }
 }

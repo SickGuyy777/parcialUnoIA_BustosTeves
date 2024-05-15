@@ -12,9 +12,13 @@ public class PositionChecker : MonoBehaviour
     public int lapsToFinish;
     public GameObject finishMsg;
     public GameObject positionsMsg;
+    public GameObject timerEndRace;
     
     [SerializeField] TMP_Text _1rstPos;
     [SerializeField] TMP_Text _last5;
+    [SerializeField] TMP_Text _timerRaceEnd;
+
+    public float cooldownEndRace = 5;
 
     List<CarController> _positions = new List<CarController>();
     int _indexText;
@@ -46,6 +50,31 @@ public class PositionChecker : MonoBehaviour
                 });
 
                 _last5.text = lastFiveText;
+            }
+
+            if(finishPositions.Count >= distances.Length / 2)
+            {
+                var carsNoFinish = distances
+                    .SelectMany(x => x._allCars)
+                    .TakeWhile(x => x.currentLap < lapsToFinish)
+                    .ToList();
+
+                timerEndRace.SetActive(true);
+                cooldownEndRace -= Time.deltaTime;
+                _timerRaceEnd.text = cooldownEndRace.ToString();
+                if (cooldownEndRace <= 0 || finishPositions.Count >= distances.Length)
+                {
+                    timerEndRace.SetActive(false);
+                }
+
+                if (cooldownEndRace <= 0)
+                {
+                    timerEndRace.SetActive(false);
+                    foreach (var item in carsNoFinish)
+                    {
+                        item.EndRace();
+                    }
+                }
             }
         }
 
