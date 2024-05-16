@@ -13,10 +13,16 @@ public class PositionChecker : MonoBehaviour
     public GameObject finishMsg;
     public GameObject positionsMsg;
     public GameObject timerEndRace;
-    
+
+    public TMP_Text TotalSpeed;
+
     [SerializeField] TMP_Text _1rstPos;
-    [SerializeField] TMP_Text _last5;
+
+    [SerializeField] TMP_Text _lastPos;
+    [SerializeField] TMP_Text _last4;
     [SerializeField] TMP_Text _timerRaceEnd;
+
+
 
     public float cooldownEndRace = 5;
 
@@ -39,20 +45,21 @@ public class PositionChecker : MonoBehaviour
         if (finishPositions.Any())
         {
             _1rstPos.text = "1st: " + finishPositions.Where(x => x.currentLap > lapsToFinish).First().gameObject.name.ToString();
+            _lastPos.text = "Last: " + finishPositions.Where(x => x.currentLap > lapsToFinish).Last().gameObject.name.ToString();
             if (finishPositions.Count >= distances.Length)
             {
-                var lastFive = finishPositions.Skip(1).ToList();
+                var lastFour = finishPositions.Skip(1).Take(4).ToList();
 
-                var lastFiveText = lastFive.Aggregate("", (current, car) =>
+                var lastFourText = lastFour.Aggregate("", (current, car) =>
                 {
-                    int position = lastFive.IndexOf(car) + 2;
+                    int position = lastFour.IndexOf(car) + 2;
                     return $"{current}\n{position}{GetPositionSuffix(position)}: {car.gameObject.name}";
                 });
 
-                _last5.text = lastFiveText;
+                _last4.text = lastFourText;
             }
 
-            if(finishPositions.Count >= distances.Length / 2)
+            if (finishPositions.Count >= distances.Length / 2)
             {
                 var carsNoFinish = distances
                     .SelectMany(x => x._allCars)
@@ -77,6 +84,9 @@ public class PositionChecker : MonoBehaviour
                 }
             }
         }
+
+        double sumaTotalVelocidades = distances.Aggregate(0.0, (acumulado, car) => acumulado + car.movementSpeed);
+        TotalSpeed.text = ("Suma velocidades: " + sumaTotalVelocidades);
 
         foreach (var text in texts)
         {
